@@ -1,26 +1,24 @@
 # Project Name
-A one line project description
+Pulse Oximeter Health Monitoring
 
 :::info 
 
-**Author**: Student Name \
+**Author**: Buga Mihai
 **GitHub Project Link**: link_to_github
 
 :::
 
 ## Description
 
-Describe in a few words your project idea.
+I want to make a pulse oximeter with a ldc display. The purpose of the project is to monitor a person's pulse and oxygenation.
+
 
 ## Motivation
-
-Why did you choose this project?
+I choose this project because I wanted to make something what it could be usefull also later in life outside getting my grade.
 
 ## Architecture 
+![image](https://github.com/UPB-FILS-MA/upb-fils-ma.github.io/assets/120630932/6bd43883-a90a-4985-908e-f4c84df125fc)
 
-Add here the schematics with the architecture of your project. Make sure to include:
- - what are the main components (architecture components, not hardware components)
- - how they connect with each other
 
 ## Log
 
@@ -34,11 +32,17 @@ Add here the schematics with the architecture of your project. Make sure to incl
 
 ## Hardware
 
-Detail in a few words the hardware used.
+The hardware part consisted of the following steps:
+
+1. Powered the Raspberry Pi Pico through the USB port of the laptop.
+2. Connected the LCD and verified its functionality.
+3. Connected the pulse sensor.
+4. Displayed the data received from the MAX30100 sensor on the LCD screen.
+5. Added a buzzer that emits a sound each time the pulse sensor detects a heartbeat.
 
 ### Schematics
 
-Place your KiCAD schematics here.
+Place your KiCAD schematics here.( at this moment I have a problem with kicad I will update it later
 
 ### Bill of Materials
 
@@ -55,8 +59,9 @@ The format is
 | Device | Usage | Price |
 |--------|--------|-------|
 | [Rapspberry Pi Pico W](https://www.raspberrypi.com/documentation/microcontrollers/raspberry-pi-pico.html) | The microcontroller | [35 RON](https://www.optimusdigital.ro/en/raspberry-pi-boards/12394-raspberry-pi-pico-w.html) |
-
-
+ buzzer-https://www.bitmi.ro/module-electronice/modul-buzzer-activ-compatibil-arduino-10397.html(5 lei)
+ Breadboard 830 puncte MB-102-https://www.bitmi.ro/componente-electronice/breadboard-830-puncte-mb-102-10500.html-(9 lei)
+ Modul senzor pulsoximetru MAX30102-https://www.bitmi.ro/senzori-electronici/modul-senzor-pulsoximetru-max30102-10803.html (16 lei)
 ## Software
 
 | Library | Description | Usage |
@@ -68,6 +73,6 @@ The format is
 
 <!-- Add a few links that inspired you and that you think you will use for your project -->
 
-1. [link](https://example.com)
-2. [link](https://example3.com)
+1. https://all3dp.com/2/easy-simple-arduino-projects/
+2. https://projecthub.arduino.cc/SurtrTech/measure-heart-rate-and-spo2-with-max30102-eb4f74
 ...
